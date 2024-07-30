@@ -75,22 +75,22 @@ export default function Intro() {
           href="/meCV.pdf"
           download
         >
-          Downlowd CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />{" "}
+          Downlowd CV
+          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
         <a
           className="bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
           href="https://www.linkedin.com/in/maren-ehlers-a262a4122/"
           target="_blank"
         >
-          <BsLinkedin />{" "}
+          <BsLinkedin />
         </a>
         <a
-          className="bg-white p-4 flex text-gray-700 items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15]  hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
+          className="bg-white p-4 flex text-gray-700 items-center gap-2 text-[1.3rem] rounded-full focus:scale-[1.15] hover:scale-[1.15]  hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
           href="https://github.com/MarenOelixtown"
           target="_blank"
         >
-          <FaGithubSquare />{" "}
+          <FaGithubSquare />
         </a>
       </motion.div>
     </section>
