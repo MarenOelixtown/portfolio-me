@@ -63,28 +63,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Portfolio",
+    title: "Portfolio Webseite",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Nach dem Web Developemnt Bootcamp erstellte ich meine Portfolio Webseite und machte mit Hilfe eines Tutorials erste Schritte in Typescript, Tailwind CSS und Framer Motion.",
+    tags: ["React", "Next.js", "Typescript", "Tailwind CSS", "Framer Motion"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "SPICED - CaptstoneProject",
+    title: "SPICED - Captstone Project",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "In den letzten drei Wochen des 3-monatigen Intensiv-Coding-Bootcamps von 'SPICED Academy / neuefische' entwickelten wir im Dreier-Team eine 'Plant-Care-App' als Abschluss-Projekt. ",
+    tags: ["React", "Next.js", "JavaScript", "Cloudinary", "Fuse.js", "Vercel"],
     imageUrl: plantProImg,
   },
   {
-    title: "rmtDev",
+    title: "Dummy Projekt",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Dummy Projekt",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
