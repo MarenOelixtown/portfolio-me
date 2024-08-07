@@ -22,7 +22,7 @@ export default function About() {
           target="_blank"
           className=" hover:text-orange-500"
         >
-          neuefische
+          neuefische - School and Pool for Digital Talent
         </a>{" "}
         /{" "}
         <a
