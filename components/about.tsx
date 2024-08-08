@@ -23,19 +23,19 @@ export default function About() {
         zum Leuchten gebracht, die ich in einem{" "}
         <span className="font-medium">Web-Development-Bootcamp</span> bei{" "}
         <a
-          href="https://www.neuefische.de/"
-          target="_blank"
-          className=" hover:text-orange-500"
-        >
-          neuefische - School and Pool for Digital Talent
-        </a>{" "}
-        /{" "}
-        <a
           href="https://www.spiced-academy.com/de"
           target="_blank"
           className=" hover:text-indigo-600"
         >
           SPICED Academy
+        </a>{" "}
+        /{" "}
+        <a
+          href="https://www.neuefische.de/"
+          target="_blank"
+          className=" hover:text-orange-500"
+        >
+          neuefische - School and Pool for Digital Talent
         </a>{" "}
         mit Skills in{" "}
         <span className="underline">JavaScript, React.js, HTML, CSS, </span>...

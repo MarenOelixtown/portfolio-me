@@ -36,28 +36,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Web Development - Bootcamp",
+    location: "remote",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Das 12 Wochen / Coding-Bootcamp (in Vollzeit, Englisch) war eine intensive Erfahrung, jeder Error hat nicht nur mir viel Kopfzerbrechen bereitet aber der Spaß am Tüfteln überwiegt und mehr als begeistert bin ich, was ich und meine Peers während dieser Zeit mit dem finalen Projekt erreichen konnten. ",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "04/2024 - 07/2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Bildredakteurin",
+    location: "Hamburg / remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Es war mir eine Freude, die Fotoproduktionen und Geschichten in den Zeitungen und Zeitschriften sehen zu dürfen, die wir bei 'Thomas & Thomas' selbst oder in Zusammenaarbeit mit unserem Fotografen-Netzwerk entstehen lassen haben. Nicht nur der Einsatz bei Fotoshootings auch jede Art von technische Herausvorderung, haben für eine abwechslungsreiche und spannende Zeit gesorgt.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "05/2024 - 06/2006",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Bilddokumentarin",
+    location: "Hamburg",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Bei 'New Eyes' haben wir als Agentur-Team ein analoges Bildarchiv digital zum Leben erweckt. Dabei habe ich gelernt, wie wichtig es ist, traditionelle Medien mit modernen Technologien zu verbinden, um ihre Relevanz und ihren Wert auch in der digitalen Welt zu erhalten. ",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "03/2000 - 11/2005",
+  },
+  {
+    title: "Ausbildung zur Fotografin",
+    location: "Elmshorn",
+    description:
+      "Mit Porträt-, Hochzeits- und Gesellschaftsfotografie fing mein Berufsleben an - 100% analoge Fotografie und viel Zeit in der Dunkelkammer 😉",
+    icon: React.createElement(LuGraduationCap),
+    date: "08/1996 - 08/1999",
   },
 ] as const;
 
