@@ -40,14 +40,14 @@ export const experiencesData = [
     location: "remote",
     description:
       "Das 12 Wochen / Coding-Bootcamp (in Vollzeit, Englisch) war eine intensive Erfahrung, jeder Error hat nicht nur mir viel Kopfzerbrechen bereitet aber der Spaß am Tüfteln überwiegt und mehr als begeistert bin ich, was ich und meine Peers während dieser Zeit mit dem finalen Projekt erreichen konnten. ",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(FaReact),
     date: "04/2024 - 07/2024",
   },
   {
     title: "Bildredakteurin",
     location: "Hamburg / remote",
     description:
-      "Es war mir eine Freude, die Fotoproduktionen und Geschichten in den Zeitungen und Zeitschriften sehen zu dürfen, die wir bei 'Thomas & Thomas' selbst oder in Zusammenaarbeit mit unserem Fotografen-Netzwerk entstehen lassen haben. Nicht nur der Einsatz bei Fotoshootings auch jede Art von technische Herausvorderung, haben für eine abwechslungsreiche und spannende Zeit gesorgt.",
+      "Es war mir eine Freude, die Fotoproduktionen und Geschichten in den Zeitungen und Zeitschriften sehen zu dürfen, die wir bei 'Thomas & Thomas' selbst oder in Zusammenarbeit mit unserem Fotografen-Netzwerk entstehen lassen haben. Nicht nur der Einsatz bei Fotoshootings auch jede Art von technische Herausvorderung, haben für eine abwechslungsreiche und spannende Zeit gesorgt.",
     icon: React.createElement(CgWorkAlt),
     date: "05/2024 - 06/2006",
   },
@@ -56,14 +56,14 @@ export const experiencesData = [
     location: "Hamburg",
     description:
       "Bei 'New Eyes' haben wir als Agentur-Team ein analoges Bildarchiv digital zum Leben erweckt. Dabei habe ich gelernt, wie wichtig es ist, traditionelle Medien mit modernen Technologien zu verbinden, um ihre Relevanz und ihren Wert auch in der digitalen Welt zu erhalten. ",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "03/2000 - 11/2005",
   },
   {
     title: "Ausbildung zur Fotografin",
     location: "Elmshorn",
     description:
-      "Mit Porträt-, Hochzeits- und Gesellschaftsfotografie fing mein Berufsleben an - 100% analoge Fotografie und viel Zeit in der Dunkelkammer 😉",
+      "Mit Porträt-, Hochzeits- und Gesellschaftsfotografie fing nach dem Abitur mein Berufsleben an - 100% analoge Fotografie und viel Zeit in der Dunkelkammer 😉",
     icon: React.createElement(LuGraduationCap),
     date: "08/1996 - 08/1999",
   },
