@@ -9,6 +9,14 @@ import { useSectionInView } from "../lib/hooks";
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
 
+  const sendEmail = async (formData: FormData) => {
+    "use server";
+
+    console.log("Running on server");
+    console.log(formData.get("senderEmail"));
+    console.log(formData.get("message"));
+  };
+
   return (
     <motion.section
       id="contact"
@@ -27,14 +35,29 @@ export default function Contact() {
         </a>{" "}
         oder mit diesem Formular.
       </p>
-      <form className="mt-10 flex flex-col">
+      <form
+        className="mt-10 flex flex-col "
+        action={async (formData) => {
+          console.log("Running on client");
+          console.log(formData.get("senderEmail"));
+          console.log(formData.get("message"));
+          console.log(formData);
+          await sendEmail(formData);
+        }}
+      >
         <input
           type="email"
+          name="senderEmail"
+          required
+          maxLength={500}
           placeholder="Deine email"
           className="h-14 px-4 rounded-lg borderBlack"
         />
         <textarea
           placeholder="Deine Nachricht"
+          name="message"
+          required
+          maxLength={500}
           className="h-52 my-3 rounded-lg borderBlack p-4"
         />
         <button
