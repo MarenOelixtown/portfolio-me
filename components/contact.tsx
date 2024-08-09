@@ -50,7 +50,7 @@ export default function Contact() {
           placeholder="Deine Nachricht"
           name="message"
           required
-          maxLength={500}
+          maxLength={5000}
           className="h-52 my-3 rounded-lg borderBlack p-4"
         />
         <button
