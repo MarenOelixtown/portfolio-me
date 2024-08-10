@@ -10,7 +10,7 @@ import {
   Section,
   Text,
 } from "@react-email/components";
-import { Tailwind } from "@react-email/components";
+import { Tailwind } from "@react-email/tailwind";
 
 type ContactFormEmailProps = { message: string; senderEmail: string };
 
@@ -23,10 +23,10 @@ export default function ContactFormEmail({
       <Head>
         <Preview>Neue Nachricht von Portfolio Me</Preview>
         <Tailwind>
-          <Body>
+          <Body className="bg-gray-100 text-black">
             <Container>
-              <Section>
-                <Heading>
+              <Section className="bg-white borderBlack my-10 px-10 rounded-md">
+                <Heading className="leading-tight">
                   Du hast folgende Nachricht vom Kontakt-Formular erhalten:
                 </Heading>
                 <Text>{message}</Text>
