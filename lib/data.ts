@@ -80,7 +80,7 @@ export const projectsData = [
   {
     title: "SPICED - Captstone Project",
     description:
-      "In den letzten drei Wochen des 3-monatigen Intensiv-Coding-Bootcamps von 'SPICED Academy / neuefische' entwickelten wir im Dreier-Team eine 'Plant-Care-App' als Abschluss-Projekt. ",
+      "In den letzten drei Wochen des 3-monatigen Intensiv-Coding-Bootcamps entwickelten wir im Dreier-Team eine 'Plant-Care-App' als Abschluss-Projekt. ",
     tags: ["React", "Next.js", "JavaScript", "Cloudinary", "Fuse.js", "Vercel"],
     imageUrl: plantProImg,
   },
