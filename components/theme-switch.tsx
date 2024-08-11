@@ -1,19 +1,26 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import { BsMoon, BsSun } from "react-icons/bs";
 import useLocalStorageState from "use-local-storage-state";
 
 type Theme = "light" | "dark";
 
 export default function ThemeSwitch() {
-  const systemPrefersDark = window.matchMedia(
-    "(prefers-color-scheme: dark)"
-  ).matches;
-
   const [theme, setTheme] = useLocalStorageState<Theme>("theme", {
-    defaultValue: systemPrefersDark ? "dark" : "light",
+    defaultValue: "light",
   });
+
+  useEffect(() => {
+    const systemPrefersDark = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
+    if (theme === "light" && systemPrefersDark) {
+      setTheme("dark");
+    } else if (theme === "dark" && !systemPrefersDark) {
+      setTheme("light");
+    }
+  }, []);
 
   const toggleTheme = () => {
     if (theme === "light") {
