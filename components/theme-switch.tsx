@@ -17,6 +17,7 @@ export default function ThemeSwitch() {
     ).matches;
     if (theme === "light" && systemPrefersDark) {
       setTheme("dark");
+      document.documentElement.classList.add("dark");
     } else if (theme === "dark" && !systemPrefersDark) {
       setTheme("light");
     }
@@ -25,8 +26,10 @@ export default function ThemeSwitch() {
   const toggleTheme = () => {
     if (theme === "light") {
       setTheme("dark");
+      document.documentElement.classList.add("dark");
     } else {
       setTheme("light");
+      document.documentElement.classList.remove("dark");
     }
   };
 
