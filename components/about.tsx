@@ -35,10 +35,10 @@ export default function About() {
           target="_blank"
           className=" hover:text-orange-500"
         >
-          neuefische - School and Pool for Digital Talent
+          neuefische
         </a>{" "}
         mit Skills in{" "}
-        <span className="underline">JavaScript, React.js, HTML, CSS, </span>...
+        <span className="underline">JavaScript, React, HTML, CSS, </span>...
         ausgebaut habe.
       </p>
       <p>
