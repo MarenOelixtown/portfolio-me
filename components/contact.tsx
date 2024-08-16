@@ -42,6 +42,9 @@ export default function Contact() {
           toast.success("Email erfolgreich gesendet!");
         }}
       >
+        <label htmlFor="senderEmail" className="sr-only">
+          Deine Email
+        </label>
         <input
           type="email"
           name="senderEmail"
@@ -50,6 +53,9 @@ export default function Contact() {
           placeholder="Deine email"
           className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
         />
+        <label htmlFor="message" className="sr-only">
+          Deine Nachricht
+        </label>
         <textarea
           placeholder="Deine Nachricht"
           name="message"
