@@ -48,7 +48,7 @@ export const experiencesData = [
     employer: "Thomas & Thomas Presseagentur",
     location: "Hamburg / remote",
     description:
-      "Es war mir eine Freude, die Fotoproduktionen und Geschichten in Zeitungen und Zeitschriften sehen zu dürfen, die wir bei 'Thomas & Thomas' selbst oder in Zusammenarbeit mit unserem Fotografen-Netzwerk entstehen lassen haben. Nicht nur der Einsatz bei Fotoshootings auch jede Art von technische Herausvorderung hat für eine abwechslungsreiche und spannende Zeit gesorgt.",
+      "Es war mir eine Freude, die Fotoproduktionen und Geschichten in Zeitungen und Zeitschriften sehen zu dürfen, die wir bei 'Thomas & Thomas' selbst oder in Zusammenarbeit mit unserem Fotografen-Netzwerk entstehen lassen haben. Nicht nur der Einsatz bei Fotoshootings auch jede Art von technischer Herausvorderung hat für eine abwechslungsreiche und spannende Zeit gesorgt.",
     icon: React.createElement(CgWorkAlt),
     date: "05/2024 - 06/2006",
   },
