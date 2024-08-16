@@ -1,24 +1,24 @@
-## Maren's Portfolio
+## Portfolio & CV Website
+This repository contains the source code for a personal portfolio and CV website, showcasing professional experience, projects, and skills. The website is built using modern web development technologies and is designed to be responsive, visually appealing, and easy to navigate.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Live Demo
+You can view the live version of the website [`here`](https://portfolio-me-cv.vercel.app/)
 
-## Getting Started
+### Technologies Used
+#### Frontend:
+- HTML5, TypeScript
+- React.js
+- Next.js
+- Framer Motion for interactive elements
+- React-Email and Resend in connection with the contact form
 
-First, run the development server:
+#### Styling:
+- Tailwind CSS
+  
+#### Deployment:
+- Vercel
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
