@@ -42,17 +42,25 @@ export default function Contact() {
           toast.success("Email erfolgreich gesendet!");
         }}
       >
+        <label htmlFor="senderEmail" className="sr-only">
+          Deine Email
+        </label>
         <input
           type="email"
           name="senderEmail"
+          id="senderEmail"
           required
           maxLength={500}
           placeholder="Deine email"
           className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
         />
+        <label htmlFor="message" className="sr-only">
+          Deine Nachricht
+        </label>
         <textarea
           placeholder="Deine Nachricht"
           name="message"
+          id="message"
           required
           maxLength={5000}
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
