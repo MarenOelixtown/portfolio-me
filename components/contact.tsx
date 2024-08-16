@@ -48,6 +48,7 @@ export default function Contact() {
         <input
           type="email"
           name="senderEmail"
+          id="senderEmail"
           required
           maxLength={500}
           placeholder="Deine email"
@@ -59,6 +60,7 @@ export default function Contact() {
         <textarea
           placeholder="Deine Nachricht"
           name="message"
+          id="message"
           required
           maxLength={5000}
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
